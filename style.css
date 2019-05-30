@@ -1,0 +1,124 @@
+/* Write all your CSS here */
+/* Please indent properly */
+/* Please use only lower-case letters */
+/* Your webpage should be 100% responsive!!! */
+body{
+margin: 0;
+padding: 0;
+}
+.side-bar{
+background-color: #3f0e40;
+padding-left: 20px;
+display: none;
+}
+.side-bar a{
+    text-decoration: none;
+}
+.side-bar li{
+    list-style-type: none;
+    margin-left:20px;
+    padding-bottom: 15px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+#hash {
+padding-left: 16px;
+
+}
+.fa-bell{
+margin-top: 20px;
+padding-right: 12px;
+font-size:25px;
+}
+
+ /* button{ 
+    background-color: green;
+    color:white;
+    padding-top:1em 3em 1em 3em;
+    border-style:none;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+     display: block;
+
+     } */
+    .btn{
+    display: flex;
+    justify-content: flex-end;
+    }
+ .item{
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+ margin-top: 30px;
+margin-bottom: 30px; 
+
+}
+fieldset{
+    text-align: center;
+    border-bottom:none;
+    border-right: none;
+    border-left: none;
+}
+#top-right{
+    /* display:flex;
+    flex-direction: column;
+    justify-content: space-between; */
+}
+#top-left >div {
+   display: flex;
+   justify-content: center;
+   text-align: center;
+    
+}
+#side{
+    display:flex;
+    justify-content: flex-end;
+} 
+.header-container{
+    display:flex;
+    justify-content: space-between;
+}
+.header-container{
+    background-color: bisque;
+}
+#top-left{
+    /* background-color: aqua; */
+    /* display: flex; */
+    margin-top: 60px;
+}
+
+#tobah div{
+    display:flex;
+
+}
+.item1{
+     background-color: #24292e;
+display: flex;
+flex-direction: row;
+align-items: stretch;
+padding: 0ch;
+font-size: 14px;
+line-height: 1.5;
+}
+ 
+
+button{
+    background-color: green;
+    color:white;
+    padding-top:1em 3em 1em 3em;
+    border-style:none;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.item{
+margin-top: 30px;
+margin-bottom: 30px;
+
+}
